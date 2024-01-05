@@ -535,7 +535,7 @@ class MoViNet(nn.Module):
         """
         if pretrained:
             tf_like = True
-            num_classes = 600
+            num_classes = 84
             conv_type = "2plus1d" if causal else "3d"
         blocks_dic = OrderedDict()
 
